@@ -31,6 +31,7 @@ const adminChatId = '5567933330';
 
 // Обработка команды /start
 bot.start((ctx) => {
+ console.log(1)
     ctx.reply(`Привет , я бот который говорит тебе градус твоего местоположения,пожалуйста скинь свою локацию 
 ————————————————————————
 Hello , I am a bot who is saying you a temp of you location , please send me your location`);
