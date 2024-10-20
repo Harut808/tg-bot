@@ -54,6 +54,4 @@ bot.on('message', async (ctx) => {
 // Запуск бота
 bot.launch();
 
-// Грейсфул остановка
-process.once('SIGINT', () => bot.stop('SIGINT'));
-process.once('SIGTERM', () => bot.stop('SIGTERM'));
+
